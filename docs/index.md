@@ -32,4 +32,4 @@ As mentioned above, some of equivalent Unity methods are not implemented by this
 1. A double precision version of the method seemed unlikely to offer much practical benefit.
 2. The behaviour of the Unity method could not be reproduced with sufficient accuracy.
 
-If there a method missing from this library that you feel should be implemented, please feel free to get in touch and I will look into it.
+If there a method missing from this library that you feel should be implemented, please feel free to [get in touch](mailto:robertclose@pm.me?subject=DPML) and I will look into it.

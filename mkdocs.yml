@@ -1,3 +1,8 @@
 site_name: Double Precision Maths Library
 theme:
   name: material
+extra:
+  social:
+    - icon: fontawesome/solid/paper-plane
+      link: mailto:robertclose@pm.me?subject=DPML
+      name: Email
