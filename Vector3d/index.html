@@ -9,20 +9,22 @@
       
       
       
+        <link rel="prev" href="../Vector2d/">
       
-        <link rel="next" href="Mathd/">
+      
+        <link rel="next" href="../Vector4d/">
       
       
-      <link rel="icon" href="assets/images/favicon.png">
+      <link rel="icon" href="../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.2">
     
     
       
-        <title>Double Precision Maths Library</title>
+        <title>Vector3d - Double Precision Maths Library</title>
       
     
     
-      <link rel="stylesheet" href="assets/stylesheets/main.d7758b05.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.d7758b05.min.css">
       
       
 
@@ -41,7 +43,7 @@
       
     
     
-    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -60,7 +62,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#introduction" class="md-skip">
+        <a href="#vector3d" class="md-skip">
           Skip to content
         </a>
       
@@ -76,7 +78,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="." title="Double Precision Maths Library" class="md-header__button md-logo" aria-label="Double Precision Maths Library" data-md-component="logo">
+    <a href=".." title="Double Precision Maths Library" class="md-header__button md-logo" aria-label="Double Precision Maths Library" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -96,7 +98,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Introduction
+              Vector3d
             
           </span>
         </div>
@@ -171,7 +173,7 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="." title="Double Precision Maths Library" class="md-nav__button md-logo" aria-label="Double Precision Maths Library" data-md-component="logo">
+    <a href=".." title="Double Precision Maths Library" class="md-nav__button md-logo" aria-label="Double Precision Maths Library" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -186,19 +188,10 @@
       
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-      <a href="." class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -208,7 +201,6 @@
   
 
       </a>
-      
     </li>
   
 
@@ -220,7 +212,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Mathd/" class="md-nav__link">
+      <a href="../Mathd/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -241,7 +233,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Matrix4x4d/" class="md-nav__link">
+      <a href="../Matrix4x4d/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -262,7 +254,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Quaterniond/" class="md-nav__link">
+      <a href="../Quaterniond/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -283,7 +275,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Vector2d/" class="md-nav__link">
+      <a href="../Vector2d/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -301,10 +293,31 @@
       
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="Vector3d/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Vector3d
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -314,6 +327,44 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#unimplemented-methods" class="md-nav__link">
+    <span class="md-ellipsis">
+      Unimplemented Methods
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#known-differences-between-implemented-methods" class="md-nav__link">
+    <span class="md-ellipsis">
+      Known Differences Between Implemented Methods
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -325,7 +376,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Vector4d/" class="md-nav__link">
+      <a href="../Vector4d/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -359,6 +410,32 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#unimplemented-methods" class="md-nav__link">
+    <span class="md-ellipsis">
+      Unimplemented Methods
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#known-differences-between-implemented-methods" class="md-nav__link">
+    <span class="md-ellipsis">
+      Known Differences Between Implemented Methods
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -373,31 +450,17 @@
 
 
 
-<h1 id="introduction">Introduction</h1>
-<p>The Double Precision Maths Library is a free code library for users of the Unity game engine. </p>
-<p>The library contains classes such as <code>Vector3d</code> and <code>Quaterniond</code>, which should be instantly familiar to users of Unity. While the Unity maths and physics classes are backed by single precision floating-point data types, the classes of this library are backed by double precision floats. </p>
-<p>The higher precision types allow for more accurate physical simulations, as floating-point rounding errors are minimised. This may be helpful when performing simulations of orbital mechanics for example, where centimetre precision may still be required across astronomical distances.</p>
-<h1 id="installation">Installation</h1>
-<p>The library may be found for free on the Unity Asset Store <a href="https://assetstore.unity.com/packages/tools/physics/double-precision-maths-library-282105">here</a>. Once you have added the asset to your account, you can install it into your projects via the Unity Package Manager.</p>
-<h1 id="style-of-this-documentation">Style Of This Documentation</h1>
-<p>Every class in this library has an equivalent class in the built-in Unity scripting API. These classes have been designed to be as similar to their Unity equivalents as possible. For that reason, the standard Unity documentation can largely serve as documentation for this library. </p>
-<p>However, there are a handful of places where the behaviour of this library differs slightly from the Unity implementation. There are also some methods from the Unity classes which are not implemented by this library. This documentation seeks only to record all the differences and missing methods.</p>
-<h1 id="contents-of-this-library">Contents Of This Library</h1>
-<p>The classes included in this library are the following:</p>
+<h1 id="vector3d">Vector3d</h1>
+<p>Unity equivalent documentation: <a href="https://docs.unity3d.com/ScriptReference/Vector3.html">https://docs.unity3d.com/ScriptReference/Vector3.html</a></p>
+<h2 id="unimplemented-methods">Unimplemented Methods</h2>
 <ul>
-<li><code>Mathd</code></li>
-<li><code>Matrix4x4d</code></li>
-<li><code>Quaterniond</code></li>
-<li><code>Vector2d</code></li>
-<li><code>Vector3d</code> </li>
-<li><code>Vector4d</code></li>
+<li><a href="https://docs.unity3d.com/ScriptReference/Vector3.RotateTowards.html"><code>RotateTowards()</code></a></li>
+<li><a href="https://docs.unity3d.com/ScriptReference/Vector3.SmoothDamp.html"><code>SmoothDamp()</code></a></li>
 </ul>
-<p>As mentioned above, some of equivalent Unity methods are not implemented by this library. This was done for one of two reasons:</p>
-<ol>
-<li>A double precision version of the method seemed unlikely to offer much practical benefit.</li>
-<li>The behaviour of the Unity method could not be reproduced with sufficient accuracy.</li>
-</ol>
-<p>If there a method missing from this library that you feel should be implemented, please feel free to <a href="mailto:robbocode@pm.me?subject=DPML">get in touch</a> and I will look into it.</p>
+<h2 id="known-differences-between-implemented-methods">Known Differences Between Implemented Methods</h2>
+<ul>
+<li><a href="https://docs.unity3d.com/ScriptReference/Vector3.Slerp.html"><code>Slerp()</code></a> and <a href="https://docs.unity3d.com/ScriptReference/Vector3.SlerpUnclamped.html"><code>SlerpUnclamped()</code></a> - When slerping between directions separated by 180 degrees, there is no unique path to slerp along. This library will produce a valid <code>Slerp()</code>, but in general it will not exactly match the <code>Slerp()</code> produced by the built-in Unity methods.</li>
+</ul>
 
 
 
@@ -456,10 +519,10 @@
     </div>
     
     
-    <script id="__config" type="application/json">{"base": ".", "features": [], "search": "assets/javascripts/workers/search.f8cc74c7.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.f8cc74c7.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="assets/javascripts/bundle.f13b1293.min.js"></script>
+      <script src="../assets/javascripts/bundle.f13b1293.min.js"></script>
       
     
   </body>
