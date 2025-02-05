@@ -4,7 +4,9 @@ The Double Precision Maths Library is a free code library for users of the Unity
 
 The library contains classes such as `Vector3d` and `Quaterniond`, which should be instantly familiar to users of Unity. While the Unity maths and physics classes are backed by single precision floating-point data types, the classes of this library are backed by double precision floats. 
 
-The higher precision types allow for more accurate physical simulations, as floating-point rounding errors are minimised. This may be helpful when performing simulations of orbital mechanics for example, where centimetre precision may still be required across astronomical distances.
+The higher precision types allow for more accurate physical simulations, as floating-point rounding errors are minimised. This may be helpful when performing simulations of orbital mechanics for example, where centimetre precision may still be required across astronomical distances. 
+
+Be cognizant of the fact that the higher precision floats will affect both memory usage and performance.
 
 # Installation
 
